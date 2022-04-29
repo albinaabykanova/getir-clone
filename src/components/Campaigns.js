@@ -44,8 +44,8 @@ export default function Campaigns() {
 
 
   return (
-    <div className="container mx-auto"> 
-     <h3 className="text-sm font-semibold mb-3">Kampaniyalar</h3> 
+    <div className="container mx-auto py-8"> 
+       <Title>Kampaniyalar</Title>
         <Slider className="-mx-2" {...settings}>
            {banners.length && banners.map((banner, index) => (
              <div key={banner.id}>
